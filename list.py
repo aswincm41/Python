@@ -77,5 +77,19 @@
 
 set1={1,2,3}
 set2={3,4,5,6}
+x=set1|set2
+print(x)
+
+#union
+
+set1={1,2,3}
+set2={3,4,5,6}
+x=set1&set2
+print(x)
+#intersection
+
+set1={1,2,3}
+set2={3,4,5,6}
 x=set1-set2
 print(x)
+#difference

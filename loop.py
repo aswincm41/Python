@@ -66,17 +66,17 @@
 
 #range
     
-# for x in  range(3):
-#     for i in range(1,5):
-#      print(i,end="       ")
-#     print()
+for x in  range(4):
+    for i in range(x):
+     print(i,end="      ")
+    print()
 
 # #nested loop
     
-# for x in range(4):
-#     for i in range(x):
-#      print("*", end="     ")
-#     print()
+for x in range(4):
+    for i in range(x):
+     print("*", end="     ")
+    print()
 
 # i=list (range(1,10,2))
 # print(i)
@@ -90,9 +90,9 @@
 # print(i)
 # #enumerate(to find the index value)
 
-fruits=["orange","apple","cherry"]
-for x,y in enumerate(fruits):
-    if(x==2):
-        print(x,y)
-    else:
-        continue
+# fruits=["orange","apple","cherry"]
+# for x,y in enumerate(fruits):
+#     if(x==2):
+#         print(x,y)
+#     else:
+#         continue
